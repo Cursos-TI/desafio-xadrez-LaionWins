@@ -19,7 +19,7 @@ int main() {
         b++;   
     }
     
-    printf("Implementação de Movimentação da Torre\n\n");
+    printf("\nImplementação de Movimentação da Torre\n\n");
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
     for (int t = 0; t < 5; t++)
@@ -27,7 +27,7 @@ int main() {
        printf("Direita\n"); //movimento da torre 
     }
     
-    printf("Implementação de Movimentação da Rainha\n\n");
+    printf("\nImplementação de Movimentação da Rainha\n\n");
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     do
