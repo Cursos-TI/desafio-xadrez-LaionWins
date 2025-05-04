@@ -9,16 +9,17 @@ int main() {
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
     int b = 0;
     int r = 0;
-    print("Implementação de Movimentação do Bispo\n");
+    
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    printf("Implementação de Movimentação do Bispo\n");
     while (b < 5)
     {
         printf("cimadireita\n"); //movimento do bispo
         b++;   
     }
     
-    print("Implementação de Movimentação da Torre\n");
+    printf("Implementação de Movimentação da Torre\n");
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
     for (int t = 0; t < 5; t++)
@@ -26,13 +27,15 @@ int main() {
        printf("Direita\n"); //movimento da torre 
     }
     
-    print("Implementação de Movimentação da Rainha\n");
+    printf("Implementação de Movimentação da Rainha\n");
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     do
     {
         printf("esquerda\n");
+        r++;
     } while (r < 8);
+    
     
 
 
